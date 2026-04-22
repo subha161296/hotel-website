@@ -19,7 +19,7 @@ img{
    background-size: cover;
    height: 100vh;
    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-   ;
+   position: relative;
 }
 
 .b {
@@ -33,6 +33,7 @@ img{
    position: sticky;
    top: 0;
    z-index: 9999;
+   
    
 
 

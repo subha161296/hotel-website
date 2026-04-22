@@ -15,6 +15,12 @@
 
     .hom {
         display: none !important;
+        position: absolute;
+        top: 60px;
+        width: 100%;
+        left: 0;
+        background-color: burlywood;
+        text-align: center;
     }
 
     #check:checked~.hom {
