@@ -1,0 +1,162 @@
+@media screen and (min-width: 320px) and (max-width:768px) {
+    .a {
+        height: max-content !important;
+    }
+    .b{
+        justify-content: space-between;
+    }
+    .img{
+        width: 80% !important;
+    }
+
+    .menuu {
+        display: block !important;
+    }
+
+    .hom {
+        display: none !important;
+    }
+
+    #check:checked~.hom {
+        display: block !important;
+    }
+
+    .book {
+        grid-template-columns: 90% !important;
+        width: 100% !important;
+        padding: 15px 0px !important;
+    }
+
+    .date {
+        grid-template-columns: 90% !important;
+        justify-content: center;
+    }
+
+    .date input,
+    select {
+        width: 100% !important;
+        box-sizing: border-box;
+    }
+
+    .accom {
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+
+    .box {
+        grid-template-columns: 100% !important;
+    }
+
+    .about {
+        grid-template-columns: 90% !important;
+        width: 90% !important;
+    }
+
+    .review {
+        grid-template-columns: 90% !important;
+    }
+
+    .phto {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .three {
+        flex-direction: column;
+        width: 90% !important;
+        margin: auto !important;
+    }
+
+    .flex {
+        grid-template-columns: 90% !important;
+        padding: 10px 0px !important;
+    }
+
+    .icon {
+        flex-direction: column !important;
+    }
+
+    .facebook {
+        justify-content: center !important;
+        margin-top: 20px;
+    }
+    .image{
+        width: 50% !important;
+    }
+
+}
+
+
+
+@media screen and (min-width: 769px) and (max-width:1200px) {
+    .a {
+        height: max-content !important;
+    }
+
+    .book {
+        grid-template-columns: 90% !important;
+        width: 100% !important;
+        padding: 15px 0px !important;
+    }
+
+    .date {
+        grid-template-columns: 90% !important;
+        justify-content: center;
+    }
+
+    .date input,
+    select {
+        width: 100% !important;
+        box-sizing: border-box;
+    }
+
+    
+
+    .box {
+        grid-template-columns: 45% 45%  !important;
+    }
+     .accom {
+        display: grid !important;
+        grid-template-columns: 45% 45% !important;
+    } 
+    
+    }
+
+    .about {
+        grid-template-columns: 90% !important;
+        width: 90% !important;
+    }
+
+    .review {
+        grid-template-columns: 90% !important;
+    }
+
+    .phto {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .three {
+        flex-direction: column;
+        width: 90% !important;
+        margin: auto !important;
+    }
+
+    .flex {
+        grid-template-columns: 90% !important;
+        padding: 10px 0px !important;
+    }
+
+    .icon {
+        flex-direction: column !important;
+    }
+
+    .facebook {
+        justify-content: center !important;
+        margin-top: 20px;
+    }
+
+}
