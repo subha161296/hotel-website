@@ -179,7 +179,7 @@ img{
 
 .about {
    display: grid;
-   grid-template-columns: 45% 45%;
+   grid-template-columns: 45% 45% !important;
    margin-top: 50px;
    /* gap: 200px; */
    justify-content: space-around;
